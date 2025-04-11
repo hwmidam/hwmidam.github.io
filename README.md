@@ -1,1 +1,0 @@
-# hwmidam.github.io
