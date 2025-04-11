@@ -1,47 +1,63 @@
 
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>hwmidam</title>
-    <meta name="description" content="hwmidam - خواننده، بازیگر و بلاگر">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            background-color: #0a0a0a;
-            color: white;
-            font-family: sans-serif;
-            background-image: url('background.jpg');
-            background-size: cover;
-            background-position: center;
-        }
-        .profile {
-            text-align: center;
-            padding: 50px;
-        }
-        .profile img {
-            width: 200px;
-            border-radius: 50%;
-            border: 4px solid white;
-        }
-        .links a {
-            color: #00ffff;
-            text-decoration: none;
-            margin: 10px;
-            display: block;
-        }
-    </style>
+    <title>hwmidam</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="hwmidam خواننده، بازیگر و بلاگر ایرانی. آثار و اطلاعات رسمی.">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "hwmidam",
+      "birthDate": "2003-11-25",
+      "birthPlace": {
+        "@type": "Place",
+        "name": "ارومیه"
+      },
+      "jobTitle": "خواننده، بازیگر، بلاگر",
+      "url": "https://hwmidam.github.io",
+      "sameAs": [
+        "https://soundcloud.com/hwmidam",
+        "https://instagram.com/hwmidam",
+        "https://youtube.com/@hwmidam"
+      ]
+    }
+    </script>
 </head>
 <body>
-    <div class="profile">
-        <img src="profile.jpg" alt="hwmidam">
-        <h1>hwmidam</h1>
-        <p>خواننده، بازیگر و بلاگر</p>
-        <div class="links">
-            <a href="https://soundcloud.com/user-914560115" target="_blank">SoundCloud</a>
-            <a href="https://instagram.com/hwmidam" target="_blank">Instagram</a>
-            <a href="https://youtube.com/@hwmidam" target="_blank">YouTube</a>
-        </div>
+    <div class="container">
+        <header>
+            <img src="profile.jpg" alt="hwmidam" class="profile-pic">
+            <h1>hwmidam</h1>
+            <p>خواننده، بازیگر و بلاگر</p>
+        </header>
+
+        <section class="bio">
+            <p>
+                hwmidam''' (زادهٔ ۴ آذر ۱۳۸۲ در ارومیه) خواننده، بازیگر و بلاگر ایرانی است. او فعالیت حرفه‌ای خود را در زمینه موسیقی آغاز کرد و با انتشار چند تک‌آهنگ در فضای مجازی مورد توجه مخاطبان قرار گرفت. وی همچنین در شبکه‌های اجتماعی مانند اینستاگرام، به‌واسطهٔ ویدیوها و ریلزهای پرمخاطب خود، به شهرت بیشتری رسید. وی همچنین در زمینه بازیگری نیز تجربه‌هایی دارد و به‌عنوان بلاگر در اینستاگرام با ریلزهایی که بازدیدهای میلیونی داشته‌اند، مخاطبان زیادی به‌دست آورده‌است.
+            </p>
+        </section>
+
+        <section class="music">
+            <h2>موزیک‌ها</h2>
+            <ul>
+                <li><img src="cover-emrooz.jpg" alt="امروز"> <a href="https://soundcloud.com/hwmidam/emrooz">امروز</a></li>
+                <li><img src="cover-delshoore.jpg" alt="دلشوره"> <a href="https://soundcloud.com/hwmidam/delshoore">دلشوره</a></li>
+                <li><img src="cover-sade-s.jpg" alt="ساده‌س"> <a href="https://soundcloud.com/hwmidam/sade-s">ساده‌س</a></li>
+                <li><img src="cover-roz.jpg" alt="رز"> <a href="https://soundcloud.com/hwmidam/roz">رز</a></li>
+                <li><img src="cover-tireh.jpg" alt="تیره"> <a href="https://soundcloud.com/hwmidam/tireh">تیره</a></li>
+            </ul>
+        </section>
+
+        <section class="socials">
+            <h2>دنبال کن</h2>
+            <a href="https://instagram.com/hwmidam">اینستاگرام</a> | 
+            <a href="https://youtube.com/@hwmidam">یوتیوب</a> | 
+            <a href="https://soundcloud.com/hwmidam">ساندکلاد</a>
+        </section>
     </div>
 </body>
 </html>
